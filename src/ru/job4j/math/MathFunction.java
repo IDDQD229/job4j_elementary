@@ -14,4 +14,8 @@ public class MathFunction {
     public static double div(double first, double second) {
         return first / second;
     }
+
+    public static double mul(double first, double second) {
+        return first * second;
+    }
 }

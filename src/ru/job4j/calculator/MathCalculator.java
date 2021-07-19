@@ -16,8 +16,10 @@ public class MathCalculator {
     public static double all2(double first, double second) {
         return sum(first, second)
                 + sub(first, second)
-                + div(first, second);
+                + div(first, second)
+                + mul(first, second);
     }
+
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + all1(10, 20));
