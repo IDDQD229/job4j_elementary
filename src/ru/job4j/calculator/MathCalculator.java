@@ -8,12 +8,12 @@ public class MathCalculator {
                 + sum(first, second);
     }
 
-    public static double all1(double first, double second) {
+    public static double subDiv(double first, double second) {
         return sub(first, second)
                 + div(first, second);
     }
 
-    public static double all2(double first, double second) {
+    public static double sumSubDivMul(double first, double second) {
         return sum(first, second)
                 + sub(first, second)
                 + div(first, second)
@@ -22,7 +22,7 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + all1(10, 20));
-        System.out.println("Результат расчета равен: " + all2(10, 20));
+        System.out.println("Результат расчета равен: " + subDiv(10, 20));
+        System.out.println("Результат расчета равен: " + sumSubDivMul(10, 20));
     }
 }
