@@ -8,10 +8,10 @@ public class Machine {
         int[] rsl = new int[100];
         int size = 0;
         int change = money - price;
-        for (int index = 0; index < coins.length; index++) {
-            while (coins[index] <= change) {
-            change -= coins[index];
-            rsl[size++] = coins[index];
+        for (int coin : coins) {
+            while (coin <= change) {
+                change -= coin;
+                rsl[size++] = coin;
             }
         }
         return Arrays.copyOf(rsl, size);
