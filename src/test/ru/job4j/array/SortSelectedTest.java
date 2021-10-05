@@ -27,6 +27,7 @@ public class SortSelectedTest {
         int[] expected = new int[]{22, 23, 24};
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void whenSort10Numbers() {
         int[] data = new int[]{33, 42, 35, 41, 40, 38, 39, 34, 36, 37};
